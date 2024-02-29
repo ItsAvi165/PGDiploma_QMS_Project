@@ -20,7 +20,7 @@ import com.app.service.ResponseService;
 
 @RestController
 @RequestMapping("/responses")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://cdac-quizhub.vercel.app/")
 public class ResponseController {
 	@Autowired
 	private ResponseService responseService;
